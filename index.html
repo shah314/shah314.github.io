@@ -40,22 +40,30 @@
 <li><a href="https://github.com/shah314/clique2/">Randomized Heuristic for the Maximum Clique Problem</a> (Java)<br>
   A simple random search algorithm for the maximum clique problem. A clique of a graph is a set of vertices in which each pair in the set have an edge between them i.e. it is a complete subgraph. A clique of maximum size is called the maximum clique. Finding the maximum clique of a graph is an NP-complete problem, and it it not possible to approximate the problem within a constant factor of the optimal.
 </li><br>
-<li><a href="http://shah.freeshell.org/clique/">Genetic Algorithm for the Maximum Clique Problem</a> (C++)
+<li><a href="http://shah.freeshell.org/clique/">Genetic Algorithm for the Maximum Clique Problem</a> (C++)<br>
+  Implementation of a genetic algorithm for the maximum clique problem in C++. A clique of a graph is a set of vertices in which each pair in the set have an edge between them i.e. it is a complete subgraph. A clique of maximum size is called the maximum clique. The algorithm uses new types of crossovers to achieve good results on several public graph datasets.
 </li><br>
-<LI><A href="http://shah.freeshell.org/gamultiknapsack/">Genetic Algorithm - 0/1 Multi-Constraint Knapsack Problem</A> (C++ and Java)
+<LI><A href="http://shah.freeshell.org/gamultiknapsack/">Genetic Algorithm - 0/1 Multi-Constraint Knapsack Problem</A> (C++ and Java)<br>
+  A genetic algorithm implementation for the multidimensional knapsack problem. The multi-constraint (or multidimensional) knapsack problem is a generalization of the 0/1 knapsack problem. The multi-constraint knapsack problem has m constraints and one objective function to be maximized while all the m constraints are satisfied. The implementation is similar to the one described in [Chu98], but its significantly different. It uses Lagrangian multipliers as constraint weights and compared to the paper, it finds close to optimum solutions much faster. (Convergence can be controlled using the parameters).
 </li><br>
-<li><a href="http://shah.freeshell.org/graphcoloring/">Heuristic for Graph Coloring</a> (Java)
+<li><a href="http://shah.freeshell.org/graphcoloring/">Heuristic for Graph Coloring</a> (Java)<br>
+  Implementation of the DSatur, Randomized Iterated Greedy and Min-Conflicts Local Search heuristics for graph coloring in Java. The algorithm is created with tha aim of obtaining the best coloring, irrespective of run time. If you need to speed up the algorithm, consider not using local search. Also, if you need help with this, please open an issue.
 </li><br>
-<LI><A href="http://shah.freeshell.org/sudoku/">Sudoku Solvers and Puzzle Generator</A> (C++ and Java)
+<LI><A href="http://shah.freeshell.org/sudoku/">Sudoku Solvers and Puzzle Generator</A> (C++ and Java)<br>
+  Sudoku is a Japanese puzzle in which a 9x9 grid is partially filled with numbers from 1 to 9. A solution to this puzzle fills in the empty cells of the grid such that there are no repeating numbers in each row, each column and each 3x3 subgrid. The general Sudoku problem is NP-Complete (by reduction from graph coloring). It is not difficult to adapt the code to generate puzzles larger than the 3x3 subgrid. The code solves Sudoku using backtracking. There is also a puzzle generator which generates Sudoku puzzles which have unique solutions.
 </li><br>
-<LI><A href="http://shah.freeshell.org/samultichoiceknapsack/">Simulated Annealing Algorithm - Multiple Choice Multidimensional knapsack problem</A>  (C++)
+<LI><A href="http://shah.freeshell.org/samultichoiceknapsack/">Simulated Annealing Algorithm - Multiple Choice Multidimensional knapsack problem</A>  (C++)<br>
+  Implementation of simulated annealing algorithm for the multiple choice multidimensional knapsack problem. The multiple choice knapsack problem has n groups of items and m constraints. The objective is to choose one item from each group such that the total value (profit) is maximized while all of the m constraints are satisfied.
 </li><br>
-<LI><A href="http://shah.freeshell.org/ilsassignment/">Iterative Local Search - Quadratic Assignment Problem</A> (C++)
+<LI><A href="http://shah.freeshell.org/ilsassignment/">Iterative Local Search - Quadratic Assignment Problem</A> (C++)<br>
+  Implementation of iterative local search for the quadratic assignment problem (C++). The QAP is a strongly NP-hard problem, and solving instances with more than 20 variables is considered intractable. The implementation uses a population of individuals and performs local improvement on them. Local improvement accepts worse solutions with a probability of 0.0. The parameters of the algorithm can be adjusted by changing the global variables. The algorithm can be used to find approximate solutions for large QAP instances for which exact methods are not suitable. (The code finds optimal solutions to all nugXX instances in a few seconds)
 </li><br>
-<LI><A href="http://shah.freeshell.org/montyhall/">Monty Hall Simulation</A> (Java)
-</LI><br>
 <li><a href="https://github.com/shah314/knapsack/">Branch and Bound Algorithm for the 0/1 Knapsack Problem</a> (Java)
-</li>
+  A Java implementation of the branch and bound algorithm for the 0/1 knapsack problem. The code uses Lagrangian relaxation to prune the search tree. It uses best first search. A sample instance of 5000 items is included. This instance has the weights in weights.txt and values (profits) in values.txt. The file solution.txt contains some information about the problem instance. The algorithm takes about 50 seconds to solve the 5000 instance (depends on the constraint though).
+</li><br>
+<LI><A href="http://shah.freeshell.org/montyhall/">Monty Hall Simulation</A> (Java)<br>
+  The Monty Hall paradox is a classic problem in probability theory where Monty, a game show host shows three doors to a player. Behind one of the three doors is a car, and behind the rest of the two doors is nothing. The player first chooses any one of the three doors but does not open it. Then, Monty opens one of the remaining doors that is non-winning. The player is then given an option to switch to the remaining unopened door, or stick to the door that he chose in the beginning of the game. The argument is that it is a good strategy for the player to switch.
+</LI><br>
 </UL>
 <HR noShade SIZE=1>
 <p align="center"><I>shah DOT shalin AT gmail DOT com</I></p>
